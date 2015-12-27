@@ -1,14 +1,14 @@
 ## 1- ACCOUNTS-SERVICE and WEB-SERVICE running
 ### Account Microservice
-![Account Microservice running and registered](https://raw.github.com/ismaro3/Laboratory-6-microservices/master/accounts-2222.png)
+![](https://github.com/jorcox/Laboratory-6-microservices/blob/master/screenshot%20_port_2222.png)
 ### WebService Microservice
-![WebService Microservice running and registered](https://raw.github.com/ismaro3/Laboratory-6-microservices/master/web-3333.png)
+![](https://github.com/jorcox/Laboratory-6-microservices/blob/master/screenshot%20_port_3333.png)
 
-##2.- The service registration service has the two microservices registered
-![Dashboard showing registered services](https://raw.github.com/ismaro3/Laboratory-6-microservices/master/dashboard.png)
+## 2- The dasboard with the both microservices registered
+![](https://github.com/jorcox/Laboratory-6-microservices/blob/master/screenshot%20_dashboard.png)
 
-##3.- A second account microservice is running on port 4444 and is registered
-![Account Microservice running on port 4444](https://raw.github.com/ismaro3/Laboratory-6-microservices/master/accounts-4444.png)
+## 3- The second ACCOUNTS-SERVICErunning on port 4444
+![](https://github.com/jorcox/Laboratory-6-microservices/blob/master/screenshot%20_port_4444.png
 
 ##4.- A brief report describing what happens when you kill the microservice on 2222
 When you kill the microservice with port 2222, the Web service Microservice, when you try to do an operation, first shows "Refused connection" errores. A few seconds after this, it shows "No instances available for ACCOUNTS-SERVICE". Finally, twenty or thirty seconds after this, it starts working again.
