@@ -14,5 +14,7 @@
 Once the service running on port 2222 is killed, trying to do a search or an operation results on a fail.
 ![](https://github.com/jorcox/Laboratory-6-microservices/blob/master/error_report.png)
 
-After waiting a few seconds the WEB-SERCVICE gets the new ACCOUNTS-SERVICE host and port from the Service Registration and start working correctly ahain.
+The WEB-SERVCICE tries to do requests to the original ACCOUNTS-SERVICE but it's down. Service Registration have to handle this situation providing the other ACCOUNTS-SERVICE to the WEB_SERVCICE.
+
+After waiting a few seconds the WEB-SERVICE gets the new ACCOUNTS-SERVICE host and port from the Service Registration and starts working correctly ahain.
 
